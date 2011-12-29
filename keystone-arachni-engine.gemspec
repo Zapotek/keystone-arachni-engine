@@ -1,17 +1,17 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "arachni_engine/version"
+require "keystone-arachni-engine/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "arachni_engine"
-  s.version     = ArachniEngine::VERSION
+  s.name        = "keystone-arachni-engine"
+  s.version     = KeystoneArachniEngine::VERSION
   s.authors     = ["TODO: Your name"]
   s.email       = ["TODO: Your email"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ArachniEngine."
-  s.description = "TODO: Description of ArachniEngine."
+  s.summary     = "TODO: Summary of KeystoneArachniEngine."
+  s.description = "TODO: Description of KeystoneArachniEngine."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]

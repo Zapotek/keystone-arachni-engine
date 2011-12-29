@@ -1,6 +1,6 @@
-require "arachni_engine/engine"
+require "keystone-arachni-engine/engine"
 
-module ArachniEngine
+module KeystoneArachniEngine
 
     def keystone?
         true
